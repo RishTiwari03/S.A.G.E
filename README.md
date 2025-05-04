@@ -93,9 +93,6 @@ Main dependencies include:
 - pywin32 (Windows only)
 - tkinter (for GUI)
 
-## License
-
-[Your license here]
 
 ## Contributors
 
