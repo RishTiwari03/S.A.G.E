@@ -1,12 +1,14 @@
 pyttsx3>=2.90
 SpeechRecognition>=3.8.1
-PyAudio>=0.2.11
 requests>=2.25.1
-opencv-python==4.5.1.48
-opencv-contrib-python==4.5.1.48  
-numpy>=1.20.1
+numpy>=1.19.5
 psutil>=5.8.0
 pyautogui>=0.9.52
-pywinauto>=0.6.8
-pycaw>=20181226
-pillow>=8.1.0  
+pywin32>=300; platform_system=="Windows"
+comtypes>=1.1.10; platform_system=="Windows"
+pycaw>=20181226; platform_system=="Windows"
+pywinauto>=0.6.8; platform_system=="Windows"
+pillow>=8.2.0
+opencv-python>=4.5.3.56; platform_system!="Windows"
+opencv-contrib-python>=4.5.3.56; platform_system!="Windows"
+pyaudio>=0.2.11
