@@ -39,7 +39,7 @@ def test_camera():
     cv2.namedWindow('Camera Test', cv2.WINDOW_NORMAL)
     
     try:
-        # Show camera feed for 10 seconds or until 'q' is pressed
+
         start_time = time.time()
         while (time.time() - start_time) < 10:
             ret, frame = cap.read()

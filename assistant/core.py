@@ -1,4 +1,4 @@
-# core.py - Fixed version
+# core.py
 
 from assistant.commands import Commands
 from assistant.text_to_speech import speak, stop_speaking, speaking, speech_lock
